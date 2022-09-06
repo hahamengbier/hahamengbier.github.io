@@ -28,9 +28,9 @@
 <meta property="og:description" content="Lecture 1: IntroductionDouble-slit experiment（双缝实验）电子的双缝实验，不观测时呈现波的特征，观测时呈现粒子的特征（观测影响了实验结果） Heisenberg’s Uncertainty Principle（不确定性原理）impossible to design apparatus that detects which slit without dis">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-08-08T15:38:51.000Z">
-<meta property="article:modified_time" content="2022-08-24T15:10:01.853Z">
+<meta property="article:modified_time" content="2022-09-04T10:13:35.510Z">
 <meta property="article:author" content="yyy">
-<meta property="article:tag" content="物理">
+<meta property="article:tag" content="物理 学习">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://example.com/2022/08/08/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97%E5%85%A5%E9%97%A8%EF%BC%88%E5%B0%8F%E5%AD%A6%E6%9C%9F%E8%AF%BE%E7%A8%8B%EF%BC%89/">
@@ -209,7 +209,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-08-24 23:10:01" itemprop="dateModified" datetime="2022-08-24T23:10:01+08:00">2022-08-24</time>
+                <time title="修改时间：2022-09-04 18:13:35" itemprop="dateModified" datetime="2022-09-04T18:13:35+08:00">2022-09-04</time>
               </span>
 
           
@@ -226,16 +226,21 @@
         <h2 id="Lecture-1-Introduction"><a href="#Lecture-1-Introduction" class="headerlink" title="Lecture 1: Introduction"></a>Lecture 1: Introduction</h2><h3 id="Double-slit-experiment（双缝实验）"><a href="#Double-slit-experiment（双缝实验）" class="headerlink" title="Double-slit experiment（双缝实验）"></a>Double-slit experiment（双缝实验）</h3><p>电子的双缝实验，不观测时呈现波的特征，观测时呈现粒子的特征（观测影响了实验结果）</p>
 <h3 id="Heisenberg’s-Uncertainty-Principle（不确定性原理）"><a href="#Heisenberg’s-Uncertainty-Principle（不确定性原理）" class="headerlink" title="Heisenberg’s Uncertainty Principle（不确定性原理）"></a>Heisenberg’s Uncertainty Principle（不确定性原理）</h3><p>impossible to design apparatus that detects which slit without disturbing interference pattern.<br>不可能设计出在不干扰干涉图案的情况下检测(通过)哪个狭缝的设备。</p>
 <h2 id="Lecture-2-Qubits-amp-Uncertainty-Principle"><a href="#Lecture-2-Qubits-amp-Uncertainty-Principle" class="headerlink" title="Lecture 2: Qubits &amp; Uncertainty Principle"></a>Lecture 2: Qubits &amp; Uncertainty Principle</h2><h3 id="Using-an-electron-to-represent-a-bit（用电子表示一个bit）"><a href="#Using-an-electron-to-represent-a-bit（用电子表示一个bit）" class="headerlink" title="Using an electron to represent a bit（用电子表示一个bit）"></a>Using an electron to represent a bit（用电子表示一个bit）</h3><p>基态（ground state）表示 0 态<br>激发态（excited state）表示 1 态</p>
-<h3 id="Qubit-quantum-bit-（量子比特）"><a href="#Qubit-quantum-bit-（量子比特）" class="headerlink" title="Qubit (quantum bit) （量子比特）"></a>Qubit (quantum bit) （量子比特）</h3><p>（单Qubit）表达式： $a\ket{0}+b\ket{1}$ </p>
-<p>条件： $|a|^2+|b|^2=1$ </p>
-<p>意义：处于 0 态的概率为 $|a|^2$ ，处于 1 态的概率为 $|b|^2$ </p>
+<h3 id="Qubit-quantum-bit-（量子比特）"><a href="#Qubit-quantum-bit-（量子比特）" class="headerlink" title="Qubit (quantum bit) （量子比特）"></a>Qubit (quantum bit) （量子比特）</h3><p>（单Qubit）表达式： $a\ket{0}+b\ket{1}$<br>条件： $|a|^2+|b|^2=1$<br>意义：处于 0 态的概率为 $|a|^2$ ，处于 1 态的概率为 $|b|^2$ </p>
 <h3 id="Geometric-Representation（几何表示）"><a href="#Geometric-Representation（几何表示）" class="headerlink" title="Geometric Representation（几何表示）"></a>Geometric Representation（几何表示）</h3><p>几何解释：单位圆上的向量（单位向量）<br>测量：做投影（内积）可以得到概率（仅依赖夹角）</p>
 <h3 id="Uncertainty-Principle（不确定性原理）"><a href="#Uncertainty-Principle（不确定性原理）" class="headerlink" title="Uncertainty Principle（不确定性原理）"></a>Uncertainty Principle（不确定性原理）</h3><h4 id="经典微粒"><a href="#经典微粒" class="headerlink" title="经典微粒"></a>经典微粒</h4><p>One can never know with perfect accuracy both of those two important factors which determine the movement of one of the smallest particles - its position and its velocity.  - Werner Heisenberg<br>微粒的速度和位置不可能同时精确得知。</p>
-<h4 id="量子比特"><a href="#量子比特" class="headerlink" title="量子比特"></a>量子比特</h4><p>令 $\ket{\phi}=a_0\ket{0}+a_1\ket{1}=b_0\ket{+}+b_1\ket{-}$ ，</p>
-<p>定义 $S(\ket{\phi})=|a_0|+|a_1|$ 和 $S’(\ket{\phi})=|b_0|+|b_1|$ ，</p>
-<p>那么有 $S(\ket{\phi})\cdot S’(\ket{\phi})\geq\sqrt{2}$ 。</p>
+<h4 id="量子比特"><a href="#量子比特" class="headerlink" title="量子比特"></a>量子比特</h4><p>令 $\ket{\phi}=a_0\ket{0}+a_1\ket{1}=b_0\ket{+}+b_1\ket{-}$ ，<br>定义 $S(\ket{\phi})=|a_0|+|a_1|$ 和 $S’(\ket{\phi})=|b_0|+|b_1|$ ，<br>那么有 $S(\ket{\phi})\cdot S’(\ket{\phi})\geq\sqrt{2}$ 。</p>
 <h2 id="Lecture-3-Axioms-of-QM-two-Qubits-Entanglement"><a href="#Lecture-3-Axioms-of-QM-two-Qubits-Entanglement" class="headerlink" title="Lecture 3: Axioms of QM, two Qubits, Entanglement"></a>Lecture 3: Axioms of QM, two Qubits, Entanglement</h2><h3 id="K-level-systems-bra-ket-notation（K-级系统，bra-ket-符号）"><a href="#K-level-systems-bra-ket-notation（K-级系统，bra-ket-符号）" class="headerlink" title="K-level systems, bra-ket notation（K 级系统，bra-ket 符号）"></a>K-level systems, bra-ket notation（K 级系统，bra-ket 符号）</h3><p>利用原子中电子的多层能级表示多维系统</p>
-
+<h4 id="基本定义"><a href="#基本定义" class="headerlink" title="基本定义"></a>基本定义</h4><p>（单Qubit）表达式： $a_0\ket{0}+a_1\ket{1}+\dots+a_{k-1}\ket{k-1}$<br>条件： $|a_0|^2+|a_1|^2+\dots+|a_{k-1}|^2=1$<br>意义：处于 i 态的概率为 $|a_i|^2$ </p>
+<h4 id="测量"><a href="#测量" class="headerlink" title="测量"></a>测量</h4><p>令 $\ket{\psi}=a_0\ket{0}+a_1\ket{1}+\dots+a_{k-1}\ket{k-1}$ 且 $\ket{\phi}=b_0\ket{0}+b_1\ket{1}+\dots+b_{k-1}\ket{k-1}$ ，<br>则 $\ket{\psi}$ 在包含 $\ket{\phi}$ 的一组基底下测量，处于 $\ket{\phi}$ 态的概率是 $|\braket{\psi|\phi}|^2=|\overline{a_0}b_0+\overline{a_1}b_1+\dots+\overline{a_{k-1}}b_{k-1}|^2$ （向量表示的 Hilbert 空间下的内积，注意取共轭）</p>
+<h3 id="Two-Qubits"><a href="#Two-Qubits" class="headerlink" title="Two Qubits"></a>Two Qubits</h3><h4 id="基本定义-1"><a href="#基本定义-1" class="headerlink" title="基本定义"></a>基本定义</h4><p>（双Qubits）表达式： $a_{00}\ket{00}+a_{01}\ket{01}+a_{10}\ket{10}+a_{11}\ket{11}$<br>条件： $|a_{00}|^2+|a_{01}|^2+|a_{10}|^2+|a_{11}|^2=1$<br>意义：处于 ij 态的概率为 $|a_{ij}|^2$ </p>
+<h4 id="测量-1"><a href="#测量-1" class="headerlink" title="测量"></a>测量</h4><p>只能分别依次对两个Qubit进行测量，测量第一个之后，纠缠态就会坍缩，对第二个的测量结果会有影响</p>
+<h3 id="Entanglement（纠缠）"><a href="#Entanglement（纠缠）" class="headerlink" title="Entanglement（纠缠）"></a>Entanglement（纠缠）</h3><h4 id="Composite-system（复合系统）"><a href="#Composite-system（复合系统）" class="headerlink" title="Composite system（复合系统）"></a>Composite system（复合系统）</h4><p>任意的 $a_{00}\ket{00}+a_{01}\ket{01}+a_{10}\ket{10}+a_{11}\ket{11}$ 不一定能表示成 $(a_{0}\ket{0}+a_{1}\ket{1})(b_{0}\ket{0}+b_{1}\ket{1})$ 的形式</p>
+<h4 id="Bell-state（贝尔态）"><a href="#Bell-state（贝尔态）" class="headerlink" title="Bell state（贝尔态）"></a>Bell state（贝尔态）</h4><p>$\ket{\psi}=\frac{1}{\sqrt{2}}\ket{00}+\frac{1}{\sqrt{2}}\ket{11}=\frac{1}{\sqrt{2}}\ket{++}+\frac{1}{\sqrt{2}}\ket{—}$<br>测量一次之后便会坍缩，测量其中一个为 $\ket{\phi}$ ，则另一个也为 $\ket{\phi}$ ，贝尔态坍缩成 $\ket{\phi\phi}$ </p>
+<h2 id="Lecture-4-Bell-Inequalities"><a href="#Lecture-4-Bell-Inequalities" class="headerlink" title="Lecture 4: Bell Inequalities"></a>Lecture 4: Bell Inequalities</h2><h3 id="EPR-and-Bell"><a href="#EPR-and-Bell" class="headerlink" title="EPR and Bell"></a>EPR and Bell</h3><h4 id="传统认知"><a href="#传统认知" class="headerlink" title="传统认知"></a>传统认知</h4><p>定域性原理（局域性原理）：认为一个特定物体，只能被它周围的力量影响<br>客观实在性：是指物质，或客观世界，不依赖于人类感知，独立于人类认识的存在和性质（不会因为观测而受影响）</p>
+<h4 id="EPR-Paradox（EPR悖论）1935"><a href="#EPR-Paradox（EPR悖论）1935" class="headerlink" title="EPR Paradox（EPR悖论）1935"></a>EPR Paradox（EPR悖论）1935</h4><p>同时对第一个在01基底下测量和对第二个在+-基底下测量，那么信息传播需要时间，因此最终状态会产生矛盾（在两个基底上总的不确定度为1，不满足不确定性原理）</p>
+<h4 id="Bell-1965"><a href="#Bell-1965" class="headerlink" title="Bell 1965"></a>Bell 1965</h4><p>测量一个物理量 E ，分别在 local realism 和 quantum mechanics 下有不同的结果，那么可以说明 local realism 是错的。<br>local realism: $E\leq0.75$<br>quantum mechanics: $E=cos^2\frac{\pi}{8}\approx0.85$</p>
+<h3 id="Rotational-invariance-of-Bell-state（贝尔态的旋转不变性）"><a href="#Rotational-invariance-of-Bell-state（贝尔态的旋转不变性）" class="headerlink" title="Rotational invariance of Bell state（贝尔态的旋转不变性）"></a>Rotational invariance of Bell state（贝尔态的旋转不变性）</h3>
     </div>
 
     
@@ -244,7 +249,7 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E7%89%A9%E7%90%86/" rel="tag"># 物理</a>
+              <a href="/tags/%E7%89%A9%E7%90%86-%E5%AD%A6%E4%B9%A0/" rel="tag"># 物理 学习</a>
           </div>
 
         
@@ -256,7 +261,10 @@
     <a href="/2022/07/15/MIT-Missing-Semester/" rel="prev" title="MIT-Missing-Semester">
       <i class="fa fa-chevron-left"></i> MIT-Missing-Semester
     </a></div>
-      <div class="post-nav-item"></div>
+      <div class="post-nav-item">
+    <a href="/2022/09/04/College-Info-Geek%E6%94%B6%E8%97%8F/" rel="next" title="College Info Geek收藏">
+      College Info Geek收藏 <i class="fa fa-chevron-right"></i>
+    </a></div>
     </div>
       </footer>
     
@@ -316,7 +324,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-1-Introduction"><span class="nav-number">1.</span> <span class="nav-text">Lecture 1: Introduction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Double-slit-experiment%EF%BC%88%E5%8F%8C%E7%BC%9D%E5%AE%9E%E9%AA%8C%EF%BC%89"><span class="nav-number">1.1.</span> <span class="nav-text">Double-slit experiment（双缝实验）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Heisenberg%E2%80%99s-Uncertainty-Principle%EF%BC%88%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86%EF%BC%89"><span class="nav-number">1.2.</span> <span class="nav-text">Heisenberg’s Uncertainty Principle（不确定性原理）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-2-Qubits-amp-Uncertainty-Principle"><span class="nav-number">2.</span> <span class="nav-text">Lecture 2: Qubits &amp; Uncertainty Principle</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Using-an-electron-to-represent-a-bit%EF%BC%88%E7%94%A8%E7%94%B5%E5%AD%90%E8%A1%A8%E7%A4%BA%E4%B8%80%E4%B8%AAbit%EF%BC%89"><span class="nav-number">2.1.</span> <span class="nav-text">Using an electron to represent a bit（用电子表示一个bit）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Qubit-quantum-bit-%EF%BC%88%E9%87%8F%E5%AD%90%E6%AF%94%E7%89%B9%EF%BC%89"><span class="nav-number">2.2.</span> <span class="nav-text">Qubit (quantum bit) （量子比特）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Geometric-Representation%EF%BC%88%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%EF%BC%89"><span class="nav-number">2.3.</span> <span class="nav-text">Geometric Representation（几何表示）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Uncertainty-Principle%EF%BC%88%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86%EF%BC%89"><span class="nav-number">2.4.</span> <span class="nav-text">Uncertainty Principle（不确定性原理）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%8F%E5%85%B8%E5%BE%AE%E7%B2%92"><span class="nav-number">2.4.1.</span> <span class="nav-text">经典微粒</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%87%8F%E5%AD%90%E6%AF%94%E7%89%B9"><span class="nav-number">2.4.2.</span> <span class="nav-text">量子比特</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-3-Axioms-of-QM-two-Qubits-Entanglement"><span class="nav-number">3.</span> <span class="nav-text">Lecture 3: Axioms of QM, two Qubits, Entanglement</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#K-level-systems-bra-ket-notation%EF%BC%88K-%E7%BA%A7%E7%B3%BB%E7%BB%9F%EF%BC%8Cbra-ket-%E7%AC%A6%E5%8F%B7%EF%BC%89"><span class="nav-number">3.1.</span> <span class="nav-text">K-level systems, bra-ket notation（K 级系统，bra-ket 符号）</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-1-Introduction"><span class="nav-number">1.</span> <span class="nav-text">Lecture 1: Introduction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Double-slit-experiment%EF%BC%88%E5%8F%8C%E7%BC%9D%E5%AE%9E%E9%AA%8C%EF%BC%89"><span class="nav-number">1.1.</span> <span class="nav-text">Double-slit experiment（双缝实验）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Heisenberg%E2%80%99s-Uncertainty-Principle%EF%BC%88%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86%EF%BC%89"><span class="nav-number">1.2.</span> <span class="nav-text">Heisenberg’s Uncertainty Principle（不确定性原理）</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-2-Qubits-amp-Uncertainty-Principle"><span class="nav-number">2.</span> <span class="nav-text">Lecture 2: Qubits &amp; Uncertainty Principle</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Using-an-electron-to-represent-a-bit%EF%BC%88%E7%94%A8%E7%94%B5%E5%AD%90%E8%A1%A8%E7%A4%BA%E4%B8%80%E4%B8%AAbit%EF%BC%89"><span class="nav-number">2.1.</span> <span class="nav-text">Using an electron to represent a bit（用电子表示一个bit）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Qubit-quantum-bit-%EF%BC%88%E9%87%8F%E5%AD%90%E6%AF%94%E7%89%B9%EF%BC%89"><span class="nav-number">2.2.</span> <span class="nav-text">Qubit (quantum bit) （量子比特）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Geometric-Representation%EF%BC%88%E5%87%A0%E4%BD%95%E8%A1%A8%E7%A4%BA%EF%BC%89"><span class="nav-number">2.3.</span> <span class="nav-text">Geometric Representation（几何表示）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Uncertainty-Principle%EF%BC%88%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86%EF%BC%89"><span class="nav-number">2.4.</span> <span class="nav-text">Uncertainty Principle（不确定性原理）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E7%BB%8F%E5%85%B8%E5%BE%AE%E7%B2%92"><span class="nav-number">2.4.1.</span> <span class="nav-text">经典微粒</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%87%8F%E5%AD%90%E6%AF%94%E7%89%B9"><span class="nav-number">2.4.2.</span> <span class="nav-text">量子比特</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-3-Axioms-of-QM-two-Qubits-Entanglement"><span class="nav-number">3.</span> <span class="nav-text">Lecture 3: Axioms of QM, two Qubits, Entanglement</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#K-level-systems-bra-ket-notation%EF%BC%88K-%E7%BA%A7%E7%B3%BB%E7%BB%9F%EF%BC%8Cbra-ket-%E7%AC%A6%E5%8F%B7%EF%BC%89"><span class="nav-number">3.1.</span> <span class="nav-text">K-level systems, bra-ket notation（K 级系统，bra-ket 符号）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89"><span class="nav-number">3.1.1.</span> <span class="nav-text">基本定义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B5%8B%E9%87%8F"><span class="nav-number">3.1.2.</span> <span class="nav-text">测量</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Two-Qubits"><span class="nav-number">3.2.</span> <span class="nav-text">Two Qubits</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%9F%BA%E6%9C%AC%E5%AE%9A%E4%B9%89-1"><span class="nav-number">3.2.1.</span> <span class="nav-text">基本定义</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B5%8B%E9%87%8F-1"><span class="nav-number">3.2.2.</span> <span class="nav-text">测量</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Entanglement%EF%BC%88%E7%BA%A0%E7%BC%A0%EF%BC%89"><span class="nav-number">3.3.</span> <span class="nav-text">Entanglement（纠缠）</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Composite-system%EF%BC%88%E5%A4%8D%E5%90%88%E7%B3%BB%E7%BB%9F%EF%BC%89"><span class="nav-number">3.3.1.</span> <span class="nav-text">Composite system（复合系统）</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Bell-state%EF%BC%88%E8%B4%9D%E5%B0%94%E6%80%81%EF%BC%89"><span class="nav-number">3.3.2.</span> <span class="nav-text">Bell state（贝尔态）</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lecture-4-Bell-Inequalities"><span class="nav-number">4.</span> <span class="nav-text">Lecture 4: Bell Inequalities</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#EPR-and-Bell"><span class="nav-number">4.1.</span> <span class="nav-text">EPR and Bell</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E4%BC%A0%E7%BB%9F%E8%AE%A4%E7%9F%A5"><span class="nav-number">4.1.1.</span> <span class="nav-text">传统认知</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#EPR-Paradox%EF%BC%88EPR%E6%82%96%E8%AE%BA%EF%BC%891935"><span class="nav-number">4.1.2.</span> <span class="nav-text">EPR Paradox（EPR悖论）1935</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Bell-1965"><span class="nav-number">4.1.3.</span> <span class="nav-text">Bell 1965</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Rotational-invariance-of-Bell-state%EF%BC%88%E8%B4%9D%E5%B0%94%E6%80%81%E7%9A%84%E6%97%8B%E8%BD%AC%E4%B8%8D%E5%8F%98%E6%80%A7%EF%BC%89"><span class="nav-number">4.2.</span> <span class="nav-text">Rotational invariance of Bell state（贝尔态的旋转不变性）</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -332,14 +340,14 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">9</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">7</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
